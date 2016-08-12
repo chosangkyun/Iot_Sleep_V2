@@ -6,3 +6,8 @@
 #include "stdafx.h"
 
 
+void git_test()
+{
+
+
+}
