@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E0A68FC5-6F86-4522-8D67-2C345743964F}</ProjectGuid>
+    <RootNamespace>Iot_Sleep</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files (x86)\MySQL\MySQL Server 5.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\MySQL\MySQL Server 5.5\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files (x86)\MySQL\MySQL Server 5.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\MySQL\MySQL Server 5.5\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>msdasc.lib;C:\Program Files (x86)\MySQL\MySQL Server 5.5\lib\libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>msdasc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="image\bitmap1.bmp" />
+    <None Include="image\IconLeft.bmp" />
+    <None Include="image\IconRight.bmp" />
+    <None Include="image\IconSingle.bmp" />
+    <None Include="image\L 그래프 1538 315.bmp" />
+    <None Include="image\L 배경_폰트.bmp" />
+    <None Include="image\L 설명부 217 224.bmp" />
+    <None Include="image\L배경.bmp" />
+    <None Include="image\R 그래프 1538 315.bmp" />
+    <None Include="image\R 배경_폰트.bmp" />
+    <None Include="image\R 설명부 217 224.bmp" />
+    <None Include="image\R배경.bmp" />
+    <None Include="image\배경1.bmp" />
+    <None Include="image\설정_비활성 81 95.bmp" />
+    <None Include="image\설정_비활성.bmp" />
+    <None Include="image\설정_활성 81 95.bmp" />
+    <None Include="image\설정_활성.bmp" />
+    <None Include="image\실시간_비활성 104 95.bmp" />
+    <None Include="image\실시간_비활성.bmp" />
+    <None Include="image\실시간_활성 104 95.bmp" />
+    <None Include="image\실시간_활성.bmp" />
+    <None Include="image\싱글 그래프 배경.bmp" />
+    <None Include="image\아이콘L 128 76.bmp" />
+    <None Include="image\아이콘R 128 76.bmp" />
+    <None Include="image\오른쪽 화살표_비활성 92 100.bmp" />
+    <None Include="image\오른쪽 화살표_비활성.bmp" />
+    <None Include="image\오른쪽 화살표_활성 92 100.bmp" />
+    <None Include="image\오른쪽 화살표_활성.bmp" />
+    <None Include="image\왼쪽 화살표_비활성 92 100.bmp" />
+    <None Include="image\왼쪽 화살표_비활성.bmp" />
+    <None Include="image\왼쪽 화살표_활성 92 100.bmp" />
+    <None Include="image\왼쪽 화살표_활성.bmp" />
+    <None Include="image\월_마우스.bmp" />
+    <None Include="image\월_비활성 65 52.bmp" />
+    <None Include="image\월_비활성.bmp" />
+    <None Include="image\월_활성.bmp" />
+    <None Include="image\일_마우스.bmp" />
+    <None Include="image\일_비활성 65 52.bmp" />
+    <None Include="image\일_비활성.bmp" />
+    <None Include="image\일_활성.bmp" />
+    <None Include="image\주_마우스.bmp" />
+    <None Include="image\주_비활성 65 52.bmp" />
+    <None Include="image\주_비활성.bmp" />
+    <None Include="image\주_활성.bmp" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\BKG.bmp" />
+    <None Include="res\Iot_Sleep.ico" />
+    <None Include="res\Iot_Sleep.rc2" />
+    <None Include="res\Iot_SleepDoc.ico" />
+    <None Include="res\L 그래프.bmp" />
+    <None Include="res\left_deep.bmp" />
+    <None Include="res\R 그래프.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlueToothManager.h" />
+    <ClInclude Include="BMPFile.h" />
+    <ClInclude Include="ColorPicker.h" />
+    <ClInclude Include="ColorPopup.h" />
+    <ClInclude Include="DBManager.h" />
+    <ClInclude Include="DialogReal.h" />
+    <ClInclude Include="DlgGraphSet.h" />
+    <ClInclude Include="DlgGraphSet1.h" />
+    <ClInclude Include="DlgGraphSet2.h" />
+    <ClInclude Include="DlgGraphSet3.h" />
+    <ClInclude Include="DlgGraphSet4.h" />
+    <ClInclude Include="DlgGraphSet5.h" />
+    <ClInclude Include="DlgMsg.h" />
+    <ClInclude Include="DlgSet.h" />
+    <ClInclude Include="DlgTabCtrl.h" />
+    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="Iot_Sleep.h" />
+    <ClInclude Include="Iot_SleepDoc.h" />
+    <ClInclude Include="Iot_SleepView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OPGraph2D.h" />
+    <ClInclude Include="OptelGraph.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SerialCom.h" />
+    <ClInclude Include="SerialLib\Serial.h" />
+    <ClInclude Include="SerialLib\SerialEx.h" />
+    <ClInclude Include="SerialLib\SerialMFC.h" />
+    <ClInclude Include="SerialLib\SerialWnd.h" />
+    <ClInclude Include="SleepData.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UserTime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlueToothManager.cpp" />
+    <ClCompile Include="BMPFile.cpp" />
+    <ClCompile Include="ColorPicker.cpp" />
+    <ClCompile Include="ColorPopup.cpp" />
+    <ClCompile Include="DBManager.cpp" />
+    <ClCompile Include="DialogReal.cpp" />
+    <ClCompile Include="DlgGraphSet.cpp" />
+    <ClCompile Include="DlgGraphSet1.cpp" />
+    <ClCompile Include="DlgGraphSet2.cpp" />
+    <ClCompile Include="DlgGraphSet3.cpp" />
+    <ClCompile Include="DlgGraphSet4.cpp" />
+    <ClCompile Include="DlgGraphSet5.cpp" />
+    <ClCompile Include="DlgMsg.cpp" />
+    <ClCompile Include="DlgSet.cpp" />
+    <ClCompile Include="DlgTabCtrl.cpp" />
+    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="Iot_Sleep.cpp" />
+    <ClCompile Include="Iot_SleepDoc.cpp" />
+    <ClCompile Include="Iot_SleepView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OPGraph2D.cpp" />
+    <ClCompile Include="SerialCom.cpp" />
+    <ClCompile Include="SerialLib\Serial.cpp" />
+    <ClCompile Include="SerialLib\SerialEx.cpp" />
+    <ClCompile Include="SerialLib\SerialWnd.cpp" />
+    <ClCompile Include="SleepData.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UserTime.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Iot_Sleep.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Iot_Sleep.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

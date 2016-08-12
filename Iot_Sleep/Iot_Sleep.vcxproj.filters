@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Iot_Sleep.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Iot_SleepDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Iot_Sleep.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\BKG.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\L 그래프.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\R 그래프.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\left_deep.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\L 그래프 1538 315.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\R 그래프 1538 315.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\배경1.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\L 설명부 217 224.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\R 설명부 217 224.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\일_비활성 65 52.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\일_활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\주_비활성 65 52.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\주_활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\월_비활성 65 52.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\월_활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\왼쪽 화살표_비활성 92 100.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\왼쪽 화살표_활성 92 100.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\오른쪽 화살표_비활성 92 100.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\오른쪽 화살표_활성 92 100.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\설정_비활성 81 95.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\실시간_비활성 104 95.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\설정_활성 81 95.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\실시간_활성 104 95.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\아이콘R 128 76.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\아이콘L 128 76.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\일_비활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\주_비활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\월_비활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\L 배경_폰트.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\R 배경_폰트.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\왼쪽 화살표_비활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\왼쪽 화살표_활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\오른쪽 화살표_비활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\오른쪽 화살표_활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\설정_비활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\실시간_비활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\설정_활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\실시간_활성.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\일_마우스.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\주_마우스.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\월_마우스.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\L배경.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\R배경.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\IconLeft.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\IconRight.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\IconSingle.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="image\싱글 그래프 배경.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Iot_Sleep.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Iot_SleepDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Iot_SleepView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="OptelGraph.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="OPGraph2D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTabCtrl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgGraphSet5.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgGraphSet4.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgGraphSet3.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgGraphSet2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgGraphSet1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgGraphSet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPopup.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPicker.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BMPFile.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialCom.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTime.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogReal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueToothManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SleepData.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialLib\Serial.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialLib\SerialEx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialLib\SerialMFC.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialLib\SerialWnd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMsg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Iot_Sleep.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Iot_SleepDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Iot_SleepView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OPGraph2D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTabCtrl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgGraphSet5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgGraphSet4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgGraphSet3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgGraphSet2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgGraphSet1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgGraphSet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPopup.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPicker.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BMPFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialCom.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTime.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogReal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueToothManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SleepData.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialLib\Serial.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialLib\SerialEx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialLib\SerialWnd.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMsg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Iot_Sleep.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
